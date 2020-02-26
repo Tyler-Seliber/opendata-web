@@ -7,8 +7,9 @@ export default function index() {
   return (
     <div>
       <Link href="/about">
+        <a title="About Page">About Page</a>
+        </Link>
         <p>Hello DSC!</p>
-      </Link>
     </div>
   );
 }
